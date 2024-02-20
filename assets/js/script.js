@@ -1,3 +1,0 @@
-* {
-    font-family: san-serif;
-}
