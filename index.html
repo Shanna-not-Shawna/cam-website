@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Cave Agency</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
+        <nav class="navbar">
+            <a href="#about">About</a>
+            <div class="subnav">
+            <button class="subnavbtn">Services<i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="#service1">Service 1</a>
+                <a href="#service2">Service 2</a>
+                <a href="#service3">Service 3</a>
+                <a href="#service4">Service 4</a>
+            </div>
+            </div>
+            <a href="#contact">Contact</a>    
         </nav>
     </header>
     <section>
@@ -22,15 +29,10 @@
         services cards will go here
     </article>
     <footer>
-        Follow us on: <a href="">Instagram</a>
+        <a href="">Instagram</a>
+        <a href="">LinkedIn</a>
     </footer>
 </body>
 </html>
 
 <!-- TODO -->
-<!-- MERN stack program with 8 pages:
-Landing/Home
-About
-Services (4)
-Contact
-Footer -->
