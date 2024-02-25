@@ -19,7 +19,6 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -27,6 +26,10 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+}
+
+.fa {
+    margin-left: 6px;
 }
 
 ol, ul {
@@ -78,35 +81,30 @@ table {
     margin: 0;
 }
   
-  /* Add a red background color to navigation links on hover */
-  .navbar a:hover, .subnav:hover .subnavbtn {
+.navbar a:hover, .subnav:hover .subnavbtn {
     background-color: red;
-  }
+}
   
-  /* Style the subnav content - positioned absolute */
-  .subnav-content {
+.subnav-content {
     display: none;
     position: absolute;
     left: 0;
     background-color: red;
     width: 100%;
     z-index: 1;
-  }
+}
   
-  /* Style the subnav links */
-  .subnav-content a {
+.subnav-content a {
     float: left;
     color: white;
     text-decoration: none;
-  }
+}
   
-  /* Add a grey background color on hover */
-  .subnav-content a:hover {
+.subnav-content a:hover {
     background-color: #eee;
     color: black;
-  }
+}
   
-  /* When you move the mouse over the subnav container, open the subnav content */
-  .subnav:hover .subnav-content {
+.subnav:hover .subnav-content {
     display: block;
-  }
+}
