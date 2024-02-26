@@ -122,7 +122,8 @@ footer {
 }
 
 .blog-cards {
-    padding: 1em;
+    padding-top: 1.5em;
+    padding-left: 1em;
     display: flex;
     flex-wrap: wrap;
     background-color: #F0F1EC;
