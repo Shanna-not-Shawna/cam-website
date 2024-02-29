@@ -4,7 +4,7 @@
 
 .quoteblock {
     background-color: #7A6300;
-    padding: 60px;
+    padding: 40px;
 }
 
 .hero {
@@ -167,6 +167,7 @@ footer {
 }
 
 .card {
+    background-color: white;
     border-style: solid;
     border-width: 1px;
     border-radius: 15px;
