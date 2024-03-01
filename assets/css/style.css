@@ -37,11 +37,13 @@
     text-align: center;
     margin: 0.625rem;
 }
+
 .hero-title {
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 0;
 }
+
 .hero-subtitle {
     font-size: 2rem;
     font-weight: 200;
@@ -62,7 +64,11 @@
     padding: 14px 16px;
     text-decoration: none;
  }
-  
+
+.arrow::after {
+    content: '\25BC';
+}
+
 .subnav {
     float: left;
     overflow: hidden;
