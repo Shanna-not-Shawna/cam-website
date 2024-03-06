@@ -91,6 +91,7 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    padding: 0;
 }
   
 .navbar a:hover, .subnav:hover .subnavbtn {
@@ -207,7 +208,7 @@ footer {
 }
 
 .card a {
-    text-style: none;
+    text-decoration: none;
     padding-top: 1em;
     padding-bottom: 5px;
 }
