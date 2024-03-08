@@ -12,7 +12,8 @@
 
 .quoteblock {
     background-color: var(--olivegreen);
-    padding: 40px;
+    padding: 2em;
+    color: white;
 }
 
 .hero {
