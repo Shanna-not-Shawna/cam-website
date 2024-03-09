@@ -124,6 +124,22 @@
     display: block;
 }
 
+.submit-button {
+    background-color: var(--lightgreen);
+    border: none;
+    color: var(--dark);
+    padding: 15px 32px;
+    margin: 12px 0px 12px 0px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.form-control {
+    
+}
+
 footer {
     background-color: var(--olivegreen);
     padding-top: 60px;
