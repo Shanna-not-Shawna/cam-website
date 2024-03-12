@@ -136,10 +136,6 @@
     border-radius: 12px;
 }
 
-.form-control {
-
-}
-
 footer {
     background-color: var(--olivegreen);
     padding-top: 60px;
@@ -241,13 +237,15 @@ footer {
 .about-me {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
-    justify-content: center;
-    align-content: flex-start;
+    width: 95%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 #founder-pic {
-    width: 50%;
+    width: 40%;
 }
 
 #founder-pic img {
@@ -256,6 +254,18 @@ footer {
 
 #founder-intro {
     width: 50%;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+p {
+    margin-top: 1em;
 }
 
 .contact-form {
