@@ -244,6 +244,11 @@ footer {
     padding-bottom: 1em;
 }
 
+#definitions div {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
 #founder-pic {
     width: 40%;
 }
