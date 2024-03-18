@@ -287,6 +287,9 @@ p {
     .card {
         width: 98%;
     }
+    nav {
+        flex-direction: column;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
