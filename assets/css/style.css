@@ -248,6 +248,27 @@ footer {
     padding-bottom: 5px;
 }
 
+.mini-card {
+    color: var(--light);
+    background-color: var(--olivegreen);
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: .5em;
+    border-radius: 15px;
+    max-width: 75px;
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-card a {
+    color: var(--light);
+    text-decoration: none;
+}
+
 .service-cards {
     padding: 1em;
     display: flex;
