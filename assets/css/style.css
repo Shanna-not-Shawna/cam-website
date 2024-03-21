@@ -125,6 +125,29 @@
     display: block;
 } */
 
+#action-invite {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #FFFFFF;
+    color: var(--dark);
+    border-style: solid;
+    border-color: var(--dark);
+    border-width: .1em;
+    border-radius: 15px;
+    padding: 1em;
+    align-items: center;
+    align-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--light);
+}
+
 .service-detail {
     margin-left: 2em;
     line-height: 1.5;
@@ -188,7 +211,7 @@ footer {
 
 .blog-card {
     border: none;
-    padding: 100px;
+    padding: 1em;
     width: 90%;
     margin: 1em;
 }
@@ -230,6 +253,18 @@ footer {
     display: flex;
     flex-wrap: wrap;
     background-color: var(--light);
+    align-items: center;
+    align-content: center;
+}
+
+.blog-card {
+    padding-top: 1em;
+    padding-left: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--light);
+    align-items: center;
+    align-content: center;
 }
 
 .blog-card img {
@@ -280,8 +315,7 @@ footer {
 
 .card a {
     text-decoration: none;
-    padding-top: 1em;
-    padding-bottom: 5px;
+    color: var(--dark);
 }
 
 .mini-card {
