@@ -1,5 +1,12 @@
 * {
     font-family: "Monserrat", sans-serif;
+    font-size: 16px;
+}
+
+* p {
+    line-height: 1.5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
 }
 
 :root {
@@ -8,6 +15,16 @@
     --midgreen: #A49200;
     --dark: #231F20;
     --light: #F0F1EC;
+}
+
+h1 {
+    padding-bottom: .5em;
+    font-weight: bold;
+}
+
+h2 {
+    padding-bottom: .5em;
+    font-weight: bold;
 }
 
 .quoteblock {
@@ -57,7 +74,7 @@
 .hero-subtitle {
     font-size: 2rem;
     font-weight: 200;
-    margin-top: 1rem;
+    margin-top: 1em;
 }
 
 .navbar {
@@ -349,16 +366,22 @@ footer {
 .about-me {
     display: flex;
     flex-wrap: wrap;
-    width: 95%;
+    width: 100vw;
     justify-content: space-evenly;
     align-items: flex-start;
     padding-top: 1em;
     padding-bottom: 1em;
+    margin: 0;
+    background-color: var(--lightgreen);
 }
 
 #definitions div {
     padding-top: 6em;
     padding-bottom: 6em;
+}
+
+#about-cave {
+    display: flex;
 }
 
 #founder-pic {
@@ -373,6 +396,39 @@ footer {
     width: 50%;
 }
 
+#social-icons {
+    text-align: center;
+    font-size: 3em;
+    color: var(--olivegreen)
+}
+
+#social-icons a {
+    color: var(--olivegreen)
+}
+
+#about-info {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#about-info h1, h2, h3 {
+    text-align: center;
+}
+
+#about-info h2 {
+    margin-top: .5em;
+}
+
+#about-photo {
+    display: flex;
+    width: 90%;
+    margin: 1em;
+}
+
+#about-photo img {
+    width: 100%;
+}
+
 h1 {
     font-size: 200%;
 }
@@ -381,8 +437,12 @@ h2 {
     font-size: 150%;
 }
 
-p {
-    margin-top: 1em;
+#vertical {
+    border-left: .25em solid var(--olivegreen);
+    height: 6em;
+    position: relative;
+    left: 50%;
+    margin-bottom: 1em;
 }
 
 .contact-form {
