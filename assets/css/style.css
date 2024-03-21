@@ -197,10 +197,9 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-}
-
-.blog-header h1 {
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--light);
 }
 
 .blog-header img{
@@ -208,6 +207,7 @@ footer {
     border-style: solid;
     border-color: var(--olivegreen);
     border-width: 6px;
+    width: 100%;
 }
 
 .large-blog-cards {
@@ -216,6 +216,12 @@ footer {
     display: flex;
     flex-wrap: wrap;
     background-color: var(--light);
+}
+
+#headshot {
+    width: 30%;
+    position: relative;
+    top: -115px;
 }
 
 .blog-cards {
