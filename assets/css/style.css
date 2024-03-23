@@ -1,5 +1,5 @@
 * {
-    font-family: "Monserrat", sans-serif;
+    font-family: "Monserrat", sans-serif !important;
     font-size: 16px;
 }
 
@@ -27,11 +27,24 @@ h2 {
     font-weight: bold;
 }
 
+.tester4 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--olivegreen);
+    border-radius: 15px;
+    width: 90%;
+}
+
 .quoteblock {
     background-color: var(--olivegreen);
     padding: 2em;
     color: white;
     text-align:  center;
+}
+
+.quoteblock p {
+    font-style: italic;
+    font-size: 450%;
 }
 
 .hero {
@@ -159,15 +172,24 @@ h2 {
     margin-bottom: 1em;
 }
 
+.container {
+    width: 100%;
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
     background-color: var(--light);
+    width: 100%;
 }
 
 .service-detail {
     margin-left: 2em;
+    margin-right: 2em;
     line-height: 1.5;
+    margin-bottom: 25em;
+    /* border-radius: 15px; */
+    background-color: #FFFFFF;
 }
 
 .service-detail p {
@@ -175,7 +197,8 @@ h2 {
 }
 
 .service-detail ul {
-    margin-left: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
     padding-top: 1em;
     padding-bottom: 1em;
     list-style-type: square;
@@ -184,6 +207,17 @@ h2 {
 .service-detail li {
     padding-top: .5em;
     padding-bottom: .5em;
+}
+
+.service-detail h1 {
+    text-align: center;
+    /* border-bottom: solid;
+    border-color: var(--lightgreen) */
+}
+
+.service-detail h2 {
+    text-align: center;
+    background-color: var(--lightgreen);
 }
 
 .submit-button {
@@ -212,12 +246,10 @@ footer {
     display: flex;
     margin: auto;
     align-items: center;
-    font-size: 30px;
     justify-content: center;
 }
 
 .footer-content p {
-    font-size: 14px;
     margin: 1em;
 }
 
@@ -336,8 +368,8 @@ footer {
 }
 
 .mini-card {
-    color: var(--light);
-    background-color: var(--olivegreen);
+    color: var(--dark);
+    background-color: var(--lightgreen);
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     padding-left: 1em;
@@ -352,7 +384,7 @@ footer {
 }
 
 .mini-card a {
-    color: var(--light);
+    color: var(--dark);
     text-decoration: none;
 }
 
@@ -363,10 +395,14 @@ footer {
     background-color: var(--light);
 }
 
+.objectives {
+    background-color: var(--lightgreen);
+    border-radius: 15px;
+}
+
 .about-me {
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
     justify-content: space-evenly;
     align-items: flex-start;
     padding-top: 1em;
@@ -376,8 +412,12 @@ footer {
 }
 
 #definitions div {
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#definitions {
+    background-color: var(--light);
 }
 
 #about-cave {
@@ -407,8 +447,9 @@ footer {
 }
 
 #about-info {
-    margin-top: 1em;
-    margin-left: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 #about-info h1, h2, h3 {
