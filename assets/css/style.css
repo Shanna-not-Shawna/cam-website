@@ -92,7 +92,7 @@ h2 {
 
 .navbar {
     overflow: hidden;
-    background-color: var(--midgreen);
+    background-color: var(--light);
     color: var(--dark);
     padding: 0;
 }
@@ -128,7 +128,8 @@ h2 {
 } */
   
 .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: var(--lightgreen);
+    background-color: var(--olivegreen);
+    color: var(--light);
 }
   
 /* .subnav-content {
