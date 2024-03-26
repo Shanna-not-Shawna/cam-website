@@ -292,6 +292,10 @@ footer {
     background-color: var(--light);
 }
 
+#half {
+    width: 50%;
+}
+
 #headshot {
     width: 30%;
     position: relative;
@@ -490,6 +494,7 @@ h2 {
 .contact-form {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .form {
