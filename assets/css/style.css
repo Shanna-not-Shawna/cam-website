@@ -27,7 +27,7 @@ h2 {
     font-weight: bold;
 }
 
-.tester4 {
+.ul-details {
     display: flex;
     flex-direction: column;
     border: 2px solid var(--olivegreen);
@@ -398,7 +398,6 @@ footer {
 }
 
 .objectives {
-    background-color: var(--lightgreen);
     border-radius: 15px;
 }
 
