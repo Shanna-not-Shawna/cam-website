@@ -109,52 +109,11 @@ h2 {
 .arrow::after {
     content: '\25BC';
 }
-
-/* .subnav {
-    float: left;
-    overflow: hidden;
-}
-  
-.subnav .subnavbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: var(--dark);
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-    padding: 0;
-} */
   
 .navbar a:hover, .subnav:hover .subnavbtn {
     background-color: var(--olivegreen);
     color: var(--light);
 }
-  
-/* .subnav-content {
-    display: none;
-    position: absolute;
-    left: 0;
-    background-color: var(--lightgreen);
-    width: 100%;
-    z-index: 1;
-}
-  
-.subnav-content a {
-    float: left;
-    color: var(--dark);
-    text-decoration: none;
-}
-  
-.subnav-content a:hover {
-    background-color: var(--olivegreen);
-    color: var(--light);
-}
-  
-.subnav:hover .subnav-content {
-    display: block;
-} */
 
 #action-invite {
     display: flex;
