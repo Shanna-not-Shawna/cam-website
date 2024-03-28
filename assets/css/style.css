@@ -44,7 +44,8 @@ h2 {
 
 .quoteblock p {
     font-style: italic;
-    font-size: 450%;
+    font-weight: bolder;
+    font-size: 650%;
 }
 
 .hero {
@@ -110,7 +111,7 @@ h2 {
     content: '\25BC';
 }
   
-.navbar a:hover, .subnav:hover .subnavbtn {
+.navbar a:hover {
     background-color: var(--olivegreen);
     color: var(--light);
 }
@@ -156,6 +157,26 @@ h2 {
 
 .service-detail p {
     padding-bottom: 1em;
+}
+
+#intro-video {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#video-container {
+    color: white;
+    background-color: black;
+    max-width: 500px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
 }
 
 .service-detail ul {
@@ -267,7 +288,7 @@ footer {
     padding-left: 1em;
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--light);
+    background-color: var(--lightgreen);
     align-items: center;
     align-content: center;
 }
@@ -461,11 +482,16 @@ h2 {
     max-width: 65vw;
 }
 
+#right-nav a {
+    float: right;
+}
+
+#intro-text {
+    text-align: center;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .card {
-        width: 98%;
-    }
     nav {
         flex-direction: column;
     }
