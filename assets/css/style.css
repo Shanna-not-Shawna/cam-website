@@ -424,6 +424,11 @@ footer {
     width: 50%;
 }
 
+#socials {
+    margin-left: auto;
+    margin-right: 0;
+}
+
 #social-icons {
     text-align: center;
     font-size: 3em;
