@@ -158,6 +158,10 @@ h2 {
     margin-right: 2em;
 }
 
+.center-p {
+    text-align: center;
+}
+
 #intro-video {
     display: flex;
     align-items: center;
