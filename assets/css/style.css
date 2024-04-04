@@ -154,6 +154,8 @@ h2 {
 
 .service-detail p {
     padding-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 #intro-video {
