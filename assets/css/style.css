@@ -104,6 +104,13 @@ h2 {
     text-decoration: none;
  }
 
+.navbar ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: right;
+}
+
 .arrow::after {
     content: '\25BC';
 }
@@ -425,11 +432,6 @@ footer {
 
 #founder-intro {
     width: 50%;
-}
-
-#socials {
-    margin-left: auto;
-    margin-right: 0;
 }
 
 #social-icons {
