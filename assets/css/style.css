@@ -474,12 +474,17 @@ h2 {
     font-size: 150%;
 }
 
-#vertical {
+#vertical1 {
+    width: 50%;
+}
+
+#vertical2 {
     border-left: .25em solid var(--olivegreen);
     height: 6em;
     position: relative;
     left: 50%;
     margin-bottom: 1em;
+    width: 50%;
 }
 
 .contact-form {
