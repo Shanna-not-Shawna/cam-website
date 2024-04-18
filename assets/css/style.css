@@ -115,6 +115,10 @@ h1, h2 {
     color: var(--light);
 }
 
+#founder-heading {
+    text-align: center;
+}
+
 #action-invite {
     display: flex;
     flex-direction: column;
@@ -455,7 +459,7 @@ footer {
     align-items: center;
 }
 
-#about-info h1, h2, h3, p {
+#about-info h1, h2, h3 {
     text-align: center;
 }
 
