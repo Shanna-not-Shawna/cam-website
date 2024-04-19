@@ -54,7 +54,7 @@ h1, h2 {
 
 .hero::before {
     content: "";
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -62,8 +62,8 @@ h1, h2 {
     background: url('../images/heroImage.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    filter: brightness(80%);
+    background-position: center;
+    /* filter: brightness(80%); */
 }
 
 .hero-content {
@@ -72,6 +72,13 @@ h1, h2 {
     color: var(--light);
     text-align: center;
     margin: 0.625rem;
+}
+
+.hero-content img {
+    z-index: 1;
+    display: grid;
+    place-content: center;
+    text-align: center;
 }
 
 .hero-title {
@@ -339,11 +346,10 @@ footer {
 
 .card {
     background-color: white;
-    border-style: solid;
-    border-width: 1px;
     border-radius: 15px;
     padding: 0.75em;
     margin: 0.75em;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .card header {
