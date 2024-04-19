@@ -127,6 +127,14 @@ h1, h2 {
     text-align: center;
 }
 
+.heading {
+    text-align: center;
+    background-color: var(--midgreen);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+}
+
 #action-invite {
     display: flex;
     flex-direction: column;
