@@ -380,6 +380,17 @@ footer {
     text-align: center;
 }
 
+.overlay-text-lg {
+    position: absolute;
+    top: 25%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #fff; 
+    /* padding: 10px 20px;  */
+    font-size: 6em; 
+    text-align: center;
+}
+
 .card header {
     text-align: center;
     font-size: 1em;
