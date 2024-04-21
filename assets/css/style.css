@@ -186,10 +186,6 @@ h1, h2 {
     margin-right: 2em;
 }
 
-.service-detail h1 {
-    
-}
-
 .center-p {
     text-align: center;
 }
@@ -229,13 +225,15 @@ h1, h2 {
 
 .service-detail h1 {
     text-align: center;
-    /* border-bottom: solid;
-    border-color: var(--lightgreen) */
+    padding: .5em;
 }
 
 .service-detail h2 {
     text-align: center;
     background-color: var(--lightgreen);
+    padding: .5em;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
 }
 
 .submit-button {
@@ -409,15 +407,6 @@ footer {
     border-top-right-radius: 15px;
 }
 
-.ul-details header {
-    text-align: center;
-    font-size: 1em;
-    padding: 20px;
-    background-color: var(--lightgreen);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
 .card p {
     text-align: center;
 }
@@ -478,7 +467,7 @@ footer {
 }
 
 #definitions div {
-    padding-top: 1em;
+    /* padding-top: 1em; */
     padding-bottom: 1em;
 }
 
