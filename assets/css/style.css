@@ -50,6 +50,7 @@ h1, h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 3px solid var(--olivegreen);
 }
 
 .hero::before {
@@ -136,6 +137,25 @@ h1, h2 {
     border-bottom: 3px solid var(--olivegreen);
 }
 
+.heading2 {
+    text-align: center;
+    background-color: var(--midgreen);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    border-bottom: 3px solid var(--olivegreen);
+    border-top: 3px solid var(--olivegreen);
+}
+
+#intro-text {
+    text-align: center;
+    background-color: var(--lightgreen);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: var(--dark);
+    border-bottom: 3px solid var(--olivegreen);
+}
+
 .padding {
     padding-top: 6.5em;
 }
@@ -169,6 +189,14 @@ h1, h2 {
     background-color: var(--light);
     width: 100%;
 }
+
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
 .service-detail {
     display: flex;
     flex-direction: column;
@@ -200,14 +228,9 @@ h1, h2 {
 }
 
 #video-container {
-    color: white;
-    background-color: black;
-    max-width: 500px;
-    padding-top: 140px;
-    padding-bottom: 140px;
-    padding-left: 120px;
-    padding-right: 120px;
-    text-align: center;
+    background-color: var(--dark);
+    padding: 2em;
+    border: 3px solid var(--midgreen);
 }
 
 .service-detail ul {
@@ -443,6 +466,11 @@ footer {
     text-decoration: none;
 }
 
+.mini-card header {
+    text-decoration: none;
+    text-align: center;
+}
+
 .service-cards {
     padding: 1em;
     display: flex;
@@ -577,10 +605,6 @@ h2 {
 
 #right-nav a {
     float: right;
-}
-
-#intro-text {
-    text-align: center;
 }
 
 /* Extra small devices (phones, 600px and down) */
