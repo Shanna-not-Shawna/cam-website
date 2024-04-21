@@ -136,7 +136,7 @@ h1, h2 {
 }
 
 .padding {
-    padding-top: 6em;
+    padding-top: 6.5em;
 }
 
 #action-invite {
@@ -303,7 +303,6 @@ footer {
 }
 
 .large-blog-cards {
-    padding-top: 1.5em;
     padding-left: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -345,13 +344,20 @@ footer {
 }
 
 .blog-title-img {
-    border-bottom: 5px inset var(--olivegreen);
+    padding: 0;
+    margin: 0;
+    border-bottom: 3px inset var(--olivegreen);
+    background-color: var(--olivegreen);
 }
 
 .blog-title-img img {
     width: 100%;
     padding: 0;
     margin: 0;
+}
+
+#written-by {
+    padding-top: 6.5em;
 }
 
 .blog-card p {
