@@ -136,8 +136,7 @@ h1, h2 {
 }
 
 .padding {
-    padding-top: 50px;
-    background-color: var(--midgreen);
+    padding-top: 6em;
 }
 
 #action-invite {
@@ -290,6 +289,7 @@ footer {
     flex-direction: column;
     align-items: center;
     background-color: var(--light);
+    position: relative;
 }
 
 .blog-header img{
@@ -298,6 +298,8 @@ footer {
     border-color: var(--olivegreen);
     border-width: 6px;
     width: 100%;
+    position: absolute;
+    top: -5em;
 }
 
 .large-blog-cards {
