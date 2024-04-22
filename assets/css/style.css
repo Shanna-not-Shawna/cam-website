@@ -335,6 +335,7 @@ footer {
     width: 50%;
     position: relative;
     display: flex;
+    padding: 2em;
 }
 
 #half img {
@@ -611,8 +612,23 @@ h2 {
 }
 
 .form {
-    max-width: 55vw;
     display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    padding: 10px;
+    margin: 4px;
+}
+
+.form textarea {
+    height: 6em;
+    margin: 4px;
+    padding: 10px;
+}
+
+.form h2 {
+    padding-bottom: 1em;
 }
 
 #right-nav a {
