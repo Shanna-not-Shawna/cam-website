@@ -245,8 +245,7 @@ h1, h2 {
 
 #video-container {
     background-color: var(--dark);
-    padding: 2em;
-    border: 4px solid var(--lightgreen);
+    padding: .5em;
 }
 
 .service-detail ul {
