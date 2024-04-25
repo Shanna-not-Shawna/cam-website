@@ -466,9 +466,25 @@ footer {
     height: auto;
 }
 
+/* .overlay-text:hover {
+    color: var(--dark);
+} */
+
+/* .section + .card + img:hover {
+    filter: opacity(30%);
+} */
+
 .card a {
     text-decoration: none;
     color: var(--dark);
+}
+
+.card:hover .overlay-text {
+    color: var(--dark);
+}
+
+.card:hover img {
+    filter: opacity(30%);
 }
 
 .mini-card {
