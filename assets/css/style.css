@@ -241,6 +241,7 @@ h1, h2 {
     justify-content: center;
     padding-top: 2em;
     padding-bottom: 2em;
+    background-color: var(--light);
 }
 
 #video-container {
@@ -465,14 +466,6 @@ footer {
     width: 100%;
     height: auto;
 }
-
-/* .overlay-text:hover {
-    color: var(--dark);
-} */
-
-/* .section + .card + img:hover {
-    filter: opacity(30%);
-} */
 
 .card a {
     text-decoration: none;
