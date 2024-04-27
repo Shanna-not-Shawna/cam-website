@@ -168,6 +168,8 @@ h1, h2 {
     background-color: var(--lightgreen);
     padding-top: 1em;
     padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
     color: var(--dark);
     border-bottom: 3px solid var(--olivegreen);
 }
@@ -663,6 +665,15 @@ h2 {
 @media only screen and (max-width: 600px) {
     nav {
         flex-direction: column;
+    }
+
+    #intro-video {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #video-container {
+        width: 100%;
     }
 }
 
