@@ -16,11 +16,6 @@
     --dark: #231F20;
     --light: #F0F1EC;
 }
-/* 
-h1, h2 {
-    padding-bottom: .5em;
-    font-weight: bold;
-} */
 
 .ul-details {
     display: flex;
@@ -64,7 +59,6 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* filter: brightness(80%); */
 }
 
 .hero-content {
@@ -434,7 +428,6 @@ footer {
     left: 50%; 
     transform: translate(-50%, -50%); 
     color: #fff; 
-    /* padding: 10px 20px;  */
     font-size: 2em; 
     text-align: center;
 }
@@ -445,7 +438,6 @@ footer {
     left: 50%; 
     transform: translate(-50%, -50%); 
     color: #fff; 
-    /* padding: 10px 20px;  */
     font-size: 6em; 
     text-align: center;
 }
