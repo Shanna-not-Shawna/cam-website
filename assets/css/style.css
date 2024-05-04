@@ -715,7 +715,7 @@ h2 {
     .navbar {
         overflow: auto;
         display: flex;
-        /* flex-direction: column; */
+        flex-direction: column;
         width: 100%;
         background-color: var(--light);
         color: var(--dark);
