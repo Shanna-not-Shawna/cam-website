@@ -15,3 +15,6 @@
     2. Convert HTML to JSX - class to className, check for self closing tags
     3. Add CSS to react components
     4. Install dependencies via npm and import into corresponding components
+
+## Design TODOs:
+    1. Media queries for mobile first approach
