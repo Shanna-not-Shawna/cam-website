@@ -18,3 +18,4 @@
 
 ## Design TODOs:
     1. Media queries for mobile first approach
+    2. Browser tests and adjust scale as needed
