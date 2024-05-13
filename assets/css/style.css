@@ -702,7 +702,7 @@ h2 {
 
     #intro-video {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     #video-container {
