@@ -743,6 +743,10 @@ h2 {
     .card {
         width: 28%;
     }
+
+    .nav {
+        flex-direction: row;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
